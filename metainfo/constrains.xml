@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workers>
+    <worker>
+        <name>natalia</name>
+        <color>red</color>
+    </worker>
+    <worker>
+        <name>marina</name>
+        <color>red</color>
+    </worker>
+    <worker>
+        <name>sofia</name>
+        <color>green</color>
+        <week>
+            <day name = 'monday'>
+                <evening>false</evening>
+            </day>
+            <day name="wednesday">
+                <evening>false</evening>
+            </day>
+        </week>
+    </worker>
+    <worker>
+        <name>jihan</name>
+        <color>blue</color>
+        <week>
+            <day name = 'sunday'>
+                <morning>false</morning>
+            </day>
+        </week>
+    </worker>
+</workers>
