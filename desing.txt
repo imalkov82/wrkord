@@ -1,0 +1,24 @@
+user side:
+1. input:
+    a, add constrains for wokers via api (present list of shifts with checkout bar: checked woking not can't work)
+    b. map woker to color same color cannot be in the same shift and possible not in the shift on same date
+2, output:
+    Now:
+    a. display via cmd the calculated shifts of current week with statistics by pressing enter
+    Future:
+    a. variation (work week) of potencial shifts, on the side number of morning/evening/sum of shifts,
+    b. past shifts in a calendar
+
+owner side:
+1.
+
+FLOW CORE VIEW:
+
+1. fillup the constrains into the xml files
+2. extract the data from db (build with sqlAlchemy sqlite db) to enrich the constrains
+3.
+
+PRESENTATION:
+1. on week days, present random possible work week.
+2. drop one name into the day shift and than view the posible variations of by clicking next
+3. show pissble variations on next click
